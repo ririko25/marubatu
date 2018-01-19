@@ -1,0 +1,33 @@
+# https://github.com/bbatsov/rubocop/blob/master/config/default.yml
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Naming/AsciiIdentifiers:
+  Enabled: false
+
+Naming/VariableNumber:
+  Enabled: false
+
+Naming/VariableName:
+  Enabled: false
+
+
+Metrics/MethodLength:
+  CountComments: true  # count full line comments?
+  Max: 40
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Metrics/CyclomaticComplexity:
+  Max: 8
+
+Style/RedundantReturn:
+  Enabled: false
