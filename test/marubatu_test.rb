@@ -1,5 +1,6 @@
-require 'minitest/autorun'
-require 'marubatu'
+require "test_helper"
+
+
 class MarubatuTest < Minitest::Test
   # テストの書き方のテンプレ
   # def test_hello
