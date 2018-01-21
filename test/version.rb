@@ -3,7 +3,7 @@
 # This software is released under the MIT License.
 # https://opensource.org/licenses/MIT
 
-require 'minitest/autorun'
+require "test_helper"
 require './lib/marubatu'
 class StatusTest < Minitest::Test
   def test_that_it_has_a_version_number
